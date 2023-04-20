@@ -138,3 +138,35 @@ nav ul li a:hover::before, nav ul li a:hover::after {
         margin: 0;
     }
 }
+
+section {
+    height: auto;
+    color: #eee;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+}
+
+section h1, h2 {
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heading {
+    transform: translateX(-100rem);
+    animation: slideIn .5s forwards;
+}
+
+.sub-heading {
+    transform: translateX(100rem);
+    animation: slideIn .5s forwards;
+}
+
+.sub-heading span {
+    color: crimson;
+}
